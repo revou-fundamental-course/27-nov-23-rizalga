@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <p class="keliling segitiga" ></p>
+        <nav class="navigation">
+            <a href="">Keliling Segitiga</a>
+            <div class="nav-button">
+                <a href="index.html">Keliling Segitiga</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container-img">
+        <img src="img/keliling.png" alt="Keliling Segitiga"> 
+    </div>
+    <div>
+        <h1>Rumus Segitiga</h1>
+        <div class="rumusKeliling">
+            <p>K = S1 + S2 + S3</p>
+        </div>
+            <p class="Keterangan">Keterangan :</p>
+            <p class="Keliling">K = Keliling </p>
+            <p class="sisia">S1 = Sisi A </p>
+            <p class="sisib">S2 = Sisi B </p>
+            <p class="sisic">S3 = Sisi C </p>
+    </div>
+    <h1>Hitung Luas Segitiga</h1> 
+    <section class="input-luas-section">
+        <label for="input-sisi A" id="label-sisi A">Sisi A</label>
+        <input type="number" name="sisia" id="input-sisi A" class="fahri-input">
+        <br/>
+        <label for="input-sisi B" id="label-sisi B">Sisi B</label>
+        <input type="number" name="sisib" id="input-sisi B" class="fahri-input">
+        <br/>
+        <label for="input-sisi C" id="label-sisi C">Sisi C</label>
+        <input type="number" name="sisic" id="input-sisi C" class="fahri-input">
+        <div class="buttons">
+             <button onclick="Keliling()">Hitung</button>
+            <button onclick="resetkeliling()">Riset</button>
+        </div>
+        <div id="result">
+
+        </div>
+        <script src="js/perhitungan.js"></script>
+    </section>
+</section>
+</body>
+</html>
